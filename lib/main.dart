@@ -4,11 +4,6 @@ void main() {
   runApp(const MyApp());
 }
 
-// --- xcodebuild: WARNING: Using the first of multiple matching destinations:
-// { platform:macOS, arch:arm64, id:00008112-001C05A10108201E, name:My Mac }
-// { platform:macOS, arch:x86_64, id:00008112-001C05A10108201E, name:My Mac }
-// warning: Run script build phase 'Run Script' will be run during every build because it does not specify any outputs. To address this issue, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'Flutter
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
